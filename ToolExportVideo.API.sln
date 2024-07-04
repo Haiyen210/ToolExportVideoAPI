@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolExportVideo.API", "ToolExportVideo.API\ToolExportVideo.API.csproj", "{5524F6E8-4620-4100-8212-976399E42103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolExportVideo.BL", "ToolExportVideo.BL\ToolExportVideo.BL.csproj", "{763CB9F9-AE5D-4DA2-825D-9853C9D1C8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolExportVideo.DL", "ToolExportVideo.DL\ToolExportVideo.DL.csproj", "{4CC5FB80-0324-4E44-A8DA-D90EF986B45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolExportVideo.Models", "ToolExportVideo.Models\ToolExportVideo.Models.csproj", "{375BA45B-5E7F-4CB2-97FA-F3BCEA3000DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolExportVideo.Library", "ToolExportVideo.Library\ToolExportVideo.Library.csproj", "{CE435364-6AF7-42E1-B2B0-2C15A8478C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolExportVideo.Common", "ToolExportVideo.Common\ToolExportVideo.Common.csproj", "{592B7B5D-5922-4928-86DC-D114E591A82B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5524F6E8-4620-4100-8212-976399E42103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5524F6E8-4620-4100-8212-976399E42103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5524F6E8-4620-4100-8212-976399E42103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5524F6E8-4620-4100-8212-976399E42103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763CB9F9-AE5D-4DA2-825D-9853C9D1C8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763CB9F9-AE5D-4DA2-825D-9853C9D1C8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763CB9F9-AE5D-4DA2-825D-9853C9D1C8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763CB9F9-AE5D-4DA2-825D-9853C9D1C8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC5FB80-0324-4E44-A8DA-D90EF986B45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC5FB80-0324-4E44-A8DA-D90EF986B45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC5FB80-0324-4E44-A8DA-D90EF986B45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC5FB80-0324-4E44-A8DA-D90EF986B45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375BA45B-5E7F-4CB2-97FA-F3BCEA3000DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375BA45B-5E7F-4CB2-97FA-F3BCEA3000DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375BA45B-5E7F-4CB2-97FA-F3BCEA3000DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375BA45B-5E7F-4CB2-97FA-F3BCEA3000DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE435364-6AF7-42E1-B2B0-2C15A8478C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE435364-6AF7-42E1-B2B0-2C15A8478C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE435364-6AF7-42E1-B2B0-2C15A8478C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE435364-6AF7-42E1-B2B0-2C15A8478C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592B7B5D-5922-4928-86DC-D114E591A82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592B7B5D-5922-4928-86DC-D114E591A82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592B7B5D-5922-4928-86DC-D114E591A82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592B7B5D-5922-4928-86DC-D114E591A82B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECB42E3A-04A5-48BF-8010-4D0C53CF0035}
+	EndGlobalSection
+EndGlobal
