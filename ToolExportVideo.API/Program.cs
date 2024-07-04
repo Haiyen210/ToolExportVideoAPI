@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using ToolExportVideo.API;
+using ToolExportVideo.BL;
 using ToolExportVideo.Common;
 using ToolExportVideo.Library;
 
@@ -63,13 +64,12 @@ builder.Services.AddAuthentication(o =>
 });
 builder.Services.AddAuthorization();
 
-//builder.Services.AddScoped<BLMember>();
-//builder.Services.AddScoped<BLEmployee>();
-//builder.Services.AddScoped<BLActiveCode>();
-//builder.Services.AddScoped<BLCard>();
-//builder.Services.AddScoped<BLPayReward>();
-//builder.Services.AddScoped<BLPointTransfer>();
-//builder.Services.AddScoped<BLRewardHistory>();
+builder.Services.AddScoped<BLAccount>();
+builder.Services.AddScoped<BLAudio>();
+builder.Services.AddScoped<BLImage>();
+builder.Services.AddScoped<BLSizeVideo>();
+builder.Services.AddScoped<BLProject>();
+builder.Services.AddScoped<BLHistoryAction>();
 
 var app = builder.Build();
 app.UseCors(AllowDomainPolicy);
