@@ -7,7 +7,7 @@ using ToolExportVideo.Library;
 using ToolExportVideo.Models;
 using ToolExportVideo.Respones;
 
-namespace NTH.WOW.API.Controllers
+namespace ToolExportVideo.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
